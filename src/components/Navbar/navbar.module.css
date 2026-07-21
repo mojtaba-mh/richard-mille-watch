@@ -1,0 +1,123 @@
+.navbar{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 5%;
+    z-index: 100;
+    background: rgba(10, 10, 10, 0.8);
+    backdrop-filter: blur(10px);
+    border-bottom: 1px solid rgba(212, 175, 55, 0.1);
+}
+
+.hamburger{
+    display: none;
+}
+
+.logo{
+    font-size: 1.5rem;
+    font-weight: 700;
+    letter-spacing: 4px;
+    color: var(--gold-primary);
+}
+
+.navLinksLeft, .navLinksRight{
+    display: flex;
+    gap: 80px;
+    align-items: center;
+}
+
+.navLinksLeft a, .navLinksRight a{
+    text-decoration: none;
+    color: var(--text-white);
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: var(--transition-smooth);
+}
+
+.navLinksLeft a:hover, .navLinksRight a:hover{
+    color: var(--gold-primary);
+}
+
+.searchBtn{
+    background: transparent;
+    border: 1px solid var(--gold-primary);
+    color: var(--gold-primary);
+    padding: 5px 15px;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: var(--transition-smooth);
+    border-radius: 5px;
+
+    &:hover{
+        background: var(--gold-primary);
+        color: var(--bg-color);
+    }
+}
+
+@media (max-width: 767px){
+    .navLinksLeft, .navLinksRight{
+        display: none;
+    }
+
+    .logo{
+        font-size: 1.2rem;
+    }
+
+    .hamburger {
+        display: flex;
+        cursor: pointer;
+        flex-direction: column;
+        gap: 5px;
+    }
+
+    .hamburger span {
+        width: 25px;
+        height: 2px;
+        background: var(--gold-primary);
+        transition: 0.3s;
+    }
+
+    .mobileMenu {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100vh;
+        background: rgba(10, 10, 10, 0.98);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 40px;
+        z-index: 999;
+    }
+
+    .mobileMenu a {
+        color: white;
+        font-size: 2rem;
+        text-transform: uppercase;
+        letter-spacing: 5px;
+        text-decoration: none;
+        transition: 0.3s;
+    }
+
+    .mobileMenu a:hover {
+        color: var(--gold-primary);
+    }
+}
+
+@media (max-width: 1024px){
+    .navLinksLeft, .navLinksRight{
+        gap: 25px;
+    } 
+
+    .navLinksLeft a, .navLinksRight a{
+        font-size: 0.8rem;
+    }
+}
