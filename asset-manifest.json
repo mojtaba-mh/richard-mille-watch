@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/richard-mille-watch/static/css/main.528b018b.css",
+    "main.js": "/richard-mille-watch/static/js/main.0846c32a.js",
+    "static/js/453.de3542c5.chunk.js": "/richard-mille-watch/static/js/453.de3542c5.chunk.js",
+    "static/media/richard-mille-rm011.webp": "/richard-mille-watch/static/media/richard-mille-rm011.ceb996e6d2190c86acea.webp",
+    "static/media/Watchmaking.jpg": "/richard-mille-watch/static/media/Watchmaking.e1bc007dcbeb89f5ffa9.jpg",
+    "static/media/richard mille rm011.webp": "/richard-mille-watch/static/media/richard mille rm011.61c5d86615bc4c3fcbae.webp",
+    "static/media/rm67-02.webp": "/richard-mille-watch/static/media/rm67-02.6fb110166067e1f1237a.webp",
+    "static/media/richard_mille rm 35-02.webp": "/richard-mille-watch/static/media/richard_mille rm 35-02.68fdb3b1bc45207db3cc.webp",
+    "static/media/image1s.jpg": "/richard-mille-watch/static/media/image1s.51f42d024917c4d604e1.jpg",
+    "static/media/watch-movement.jpg.webp": "/richard-mille-watch/static/media/watch-movement.jpg.2c2cb8826b024b5d8c4c.webp",
+    "static/media/Richard-Mille-RM-07-01.webp": "/richard-mille-watch/static/media/Richard-Mille-RM-07-01.de0592c11df2d83846a3.webp",
+    "static/media/rm65-01.webp": "/richard-mille-watch/static/media/rm65-01.dc959dd11d92ae7f6311.webp",
+    "index.html": "/richard-mille-watch/index.html",
+    "main.528b018b.css.map": "/richard-mille-watch/static/css/main.528b018b.css.map",
+    "main.0846c32a.js.map": "/richard-mille-watch/static/js/main.0846c32a.js.map",
+    "453.de3542c5.chunk.js.map": "/richard-mille-watch/static/js/453.de3542c5.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.528b018b.css",
+    "static/js/main.0846c32a.js"
+  ]
+}
